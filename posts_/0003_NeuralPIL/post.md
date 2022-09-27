@@ -26,9 +26,3 @@ This work tackles decomposition of a scene into its shape, reflectance and illum
 * Google Research
 * Microsoft Azure AI (work done at Google)
 
-
-
-
-
-
-

@@ -26,7 +26,9 @@ NERD learns the BRDF parameters (base color, metalic, and roughness) instead of 
 
 
 
+**:question:NERF가 풀고자하는 문제와 NERD가 풀고자하는 문제의 가장 큰 차이점은?**
 
+NERF는 환경에 대한 lighting이 고정된 상태에서의 reconstruction을 겨냥했다면, NERD의 경우에는 다양한 lighting환경에서의 물체를 decompose하여 물체의 shape, BRDF, illumination 총 3개의 항목에 대해서 분석하는 문제를 풀고자한다. 이렇게 여러개의 rendering에 필요한 부분들로 쪼개어 extraction하는 것을 inverse rendering이라고 하고 이 문제를 풀고자한다.
 
 
 
